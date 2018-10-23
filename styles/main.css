@@ -1,0 +1,17 @@
+body {
+  background: #D2D2D2;
+}
+
+div.list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* grid-column-gap: 50px; */
+  height: 300px;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 10px;
+}
+
+div.list > div.product {
+  height: 100px;
+}
